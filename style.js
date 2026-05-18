@@ -16,9 +16,14 @@ function typeEffect() {
     }
 }
 
-window.onload = () => {
+window.onload = () => {- 
     setTimeout(() => {
         title.classList.add("show");
         typeEffect();
     }, 500);
 };
+
+function mostrarMensagem() {
+    document.getElementById("mensagem").innerText =
+        "Bem-vindo à minha página!";
+}
